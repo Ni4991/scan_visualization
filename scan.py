@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+"""scan.py: Do network scanning and present the information in a graphical manner."""
+
+__author__ = "Ni Luo"
+__reference__ = "https://github.com/rshk/python-pcapng"
+
 from __future__ import print_function, division
 
 import logging
