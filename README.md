@@ -1,13 +1,19 @@
 # scan_visualization
 
 
+use pandas to load data, use pandas plot show bars figures
+
+
 # run 
 python scan.py [dump file]  
 for example:  
 python scan.py  dump.csv  
 
 # packages requires
-pandas   
+pandas   
+matplotlib    
+
+ 
 
 
 # result
