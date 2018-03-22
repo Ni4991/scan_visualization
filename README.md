@@ -9,7 +9,7 @@ python scan.py [dump file]
 for example:  
 python scan.py  dump.csv  
 
-# packages requires
+# Required packages
 pandas   
 matplotlib    
 
