@@ -7,11 +7,12 @@ __reference__ = "https://github.com/rshk/python-pcapng"
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import sys
 
 
 def run():
     
-    pcap_data = pd.read_csv('dump.csv', index_col='No.')
+    pcap_data = pd.read_csv(sys.argv[1], index_col='No.')
 
     df = pcap_data.groupby('Source')['Source'].count().reset_index(name='count') \
                              .sort_values(['count'], ascending=False)
