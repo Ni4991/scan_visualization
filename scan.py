@@ -2,8 +2,15 @@
 
 """scan.py: Do network scanning and present the information in a graphical manner."""
 
-__author__ = "Ni Luo"
-__reference__ = "https://github.com/rshk/python-pcapng"
+# File:           scan.py
+# Author:         Ni Luo
+# Github:         Ni4991
+# Date Created:   2018-03-21
+# Date Modified:  2018-03-22
+# Python Version: 3.6
+#
+# Purpose:        This is a program that visualizes csv data obtained from Wireshark. It plots the count of the types
+#                 of packets and plots them in a bar graph.
 
 import pandas as pd
 import matplotlib.pyplot as plt
