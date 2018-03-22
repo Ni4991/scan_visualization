@@ -8,4 +8,4 @@ python scan.py  dump.csv
 
 # result
 
-[result] (https://github.com/Ni4991/scan_visualization/blob/master/scanv.png)
+ https://github.com/Ni4991/scan_visualization/blob/master/scanv.png
