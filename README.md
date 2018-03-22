@@ -1,7 +1,7 @@
 # scan_visualization
 
-
-use pandas to load data, use pandas plot show bars figures
+use wireshark to scan the network, output the result as a csv file, then
+use pandas to load csv file, then use matplot to visualize the data in bar figures.
 
 
 # run 
