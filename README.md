@@ -4,7 +4,11 @@
 # run 
 python scan.py [dump file]  
 for example:  
-python scan.py  dump.csv     
+python scan.py  dump.csv  
+
+# packages requires
+pandas   
+
 
 # result
 
